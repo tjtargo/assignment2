@@ -11,6 +11,11 @@
 	</head>
 	
 <body>
+
+	<?php  
+		include 'customer_add.php';
+	?>
+	
 	<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,8 +39,11 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
+
 <div class="">
-	<form class="col-sm-4 col-lg-4 col-sm-offset-4 col-lg-offset-4" method="POST">
+	<form class="col-sm-4 col-lg-4 col-sm-offset-4 col-lg-offset-4" method="POST" action="">
 		<legend>Add a Customer</legend>
 		
 		<div class="form-group">
@@ -79,7 +87,7 @@
 		</div>
 		
 		<div class="form-group">
-				<button type="submit" id="id_submit" class="btn btn-primary">Submit</button>
+				<button type="submit" id="id_submit" name='submitbutton' class="btn btn-primary">Submit</button>
 		</div>
 	</form>
 </div>
