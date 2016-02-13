@@ -55,7 +55,7 @@ $conn->close();
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">View <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">Add</a></li>
+					<li><a href="customer_add.html">Add</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
