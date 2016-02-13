@@ -1,5 +1,7 @@
 <?php //customer_add.php
-		
+
+header('Location: customer_add.html');		
+
 $hn = 'www.it354.com';
 $db = 'it354_students';
 $un = 'it354_students';
@@ -24,4 +26,6 @@ $stmt->bind_param("ssssssss", $fname, $lname, $address, $city, $state, $zip, $em
 $stmt->execute();
 $stmt->close();
 $conn->close();
+
+
 ?>
