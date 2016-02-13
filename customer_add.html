@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Add to database</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	
+<body>
+
+	<?php  
+		include 'customer_add.php';
+	?>
+	
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p class="navbar-brand">Assignment 2</p>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+		<li><a href="#">View</a></li>
+        <li class="active"><a href="#">Add<span class="sr-only">(current)</span></a></li>
+      </ul>
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<div class="">
+	<form class="col-sm-4 col-lg-4 col-sm-offset-4 col-lg-offset-4" method="POST" action="">
+		<legend>Add a Customer</legend>
+		
+		<div class="form-group">
+			<label for="id_fname">First Name:</label>
+			<input type="text" id="id_fname" name="fname" class="form-control" placeholder="Enter first name">
+		</div>
+		
+		<div class="form-group">
+			<label for="id_lname">Last or Company:</label>
+			<input type="text" id="id_lname" name="lname" class="form-control" placeholder="Enter last or company name">
+		</div>
+		
+		<div class="form-group">
+			<label for="id_address">Address:</label>
+			<input type="text" id="id_address" name="address" class="form-control" placeholder="Enter address">
+		</div>
+		
+		<div class="form-group">
+			<label for="id_city">City:</label>
+			<input type="text" id="id_city" name="city" class="form-control" placeholder="Enter city">
+		</div>
+		
+		<div class="form-group">
+			<label for="id_state">State:</label>
+			<input type="text" id="id_state" name="state" class="form-control" placeholder="Enter state">
+		</div>
+		
+		<div class="form-group">
+			<label for="id_zip">Zip:</label>
+			<input type="text" id="id_zip" name="zip" class="form-control" placeholder="Enter zip">
+		</div>
+		
+		<div class="form-group">
+			<label for="id_email">Email:</label>
+			<input type="text" id="id_email" name="email" class="form-control" placeholder="Enter email">
+		</div>
+		
+		<div class="form-group">
+			<label for="id_phone">Phone:</label>
+			<input type="text" id="id_phone" name="phone" class="form-control" placeholder="Enter phone">
+		</div>
+		
+		<div class="form-group">
+				<button type="submit" id="id_submit" name='submitbutton' class="btn btn-primary">Submit</button>
+		</div>
+	</form>
+</div>
+</body>
+</html>
