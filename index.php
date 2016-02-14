@@ -37,6 +37,7 @@ $conn->close();
 	<title>Assignment 2</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
+<!-- J-Philly was here. I hope this counts because I don't want to change Tom's code -->
 <body>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
